@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-x4p*-vhg_#zx-5@6)x9532rxiebfgyfwn6&y%w-w&f_m3_+c=b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['laithan2.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -131,7 +131,6 @@ STATICFILES_DIR = [os.path.join(BASE_DIR,'static')]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-from django.urls import path
 
 LOGIN_REDIRECT_URL = '/groups/'
 LOGOUT_REDIRECT_URL = '/thanks'

@@ -7,6 +7,8 @@ class UserCreateForm(UserCreationForm):
     
     class Meta:
         fields = ('username','email','password1','password2')
+        email = forms.CharField(required=True)
+        
         
         
         model = get_user_model()
